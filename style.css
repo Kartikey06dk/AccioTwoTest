@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+
+#header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 40px;
+  background: #fcaf02;
+  z-index: 999;
+  position: sticky;
+  top: 0;
+}
+#header img {
+  padding: 0;
+  width: 100px;
+}
+#navbar {
+  display: flex;
+}
+
+#navbar li {
+  /* position: relative; */
+  list-style: none;
+  padding: 0px 20px;
+}
+
+#navbar li a {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#intro {
+  display: flex;
+  /* background-color: red; */
+  padding: 20px;
+}
+
+.left {
+  color: white;
+  width: 60%;
+  padding: 20px;
+}
+.left h1 {
+  font-size: 60px;
+  padding: 0;
+  margin-bottom: 15px;
+}
+.left p {
+  font-size: 28px;
+  margin-top: 0px;
+}
+
+.btn {
+  border-radius: 30px;
+  font-weight: 900;
+  padding: 5px 80px;
+  background-color: #fcaf02;
+  font-size: 25px;
+}
+
+.jeff {
+  height: 100%;
+  width: 100%;
+}
+.right {
+  width: 40%;
+}
+.cont {
+  font-size: 50px;
+  font-weight: 900;
+  font-style: bold;
+}
+
+#contact {
+  color: #fcaf02;
+  /* background-color: yellow; */
+  padding: 20px;
+  margin: 20px;
+}
+
+.two {
+  margin-right: 20px;
+  width: 95%;
+  /* background-color: red; */
+}
+#name {
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+  border: 2px solid #fcaf02;
+  background-color: #000;
+  color: #fcaf02;
+}
+
+#email {
+  padding: 20px;
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #fcaf02;
+  background-color: #000;
+  color: #fcaf02;
+}
+#name::placeholder,
+#email::placeholder,
+#city::placeholder,
+#number::placeholder {
+  color: #fcaf02;
+}
+
+.bottom {
+  display: flex;
+  width: 98%;
+  /* background-color: red; */
+  gap: 40px;
+  justify-content: space-around;
+}
+
+#number {
+  width: 100%;
+  border-radius: 30px;
+  padding: 20px;
+  border: 2px solid #fcaf02;
+  background-color: #000;
+}
+
+#city {
+  width: 100%;
+  border-radius: 30px;
+  border: 2px solid #fcaf02;
+  padding: 20px;
+  background-color: #000;
+}
+
+#submit {
+  background-color: #fcaf02;
+  border-radius: 40px;
+  font-weight: 700;
+  padding: 15px 40px;
+  font-size: 25px;
+}
+
+.btn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  border-collapse: collapse;
+  color: #fcaf02;
+}
+table td {
+  border-left: 1px solid #fcaf02;
+  border-right: 1px solid #fcaf02;
+
+  padding: 20px;
+}
+table th {
+  border: 1px solid #fcaf02;
+  padding: 20px;
+}
+tfoot {
+  background-color: #fcaf02;
+
+  color: #000;
+  font-weight: 900;
+}
+.center {
+  margin-left: 50px;
+  margin-right: 100px;
+  width: 100%;
+  margin-bottom: 50px;
+}
